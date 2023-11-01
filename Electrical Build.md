@@ -10,10 +10,11 @@ Here is some more images of the soldering I had to do on the control board in or
 ![IMG_0749](https://github.com/Hunter-Rohovit/Rubik-s-Cube-Simulator/assets/105554281/6952e479-d50d-4ff1-8079-bb1af26da415)<br>
 The 2x7A motor drivers needed to be connected to the control board, so I created a series of jumper wires that connected VIN and GND to the motor controllers, as well as supplied power and ground for the motors themselves. These motor controllers connected to the terminal blocks from above with the printed wires in the PCB. <br>
 ![IMG_0750](https://github.com/Hunter-Rohovit/Rubik-s-Cube-Simulator/assets/105554281/36553d8c-2b6f-45c9-99a4-61d1ef6cd169)<br>
-Here are the motor controllers attached to the rest of the control board to finish the soldering and control board build!
+Here are the motor controllers attached to the rest of the control board to finish the soldering and control board build!<br>
 ## Raspberry Pi / Rover Code Setup
-![IMG_0753](https://github.com/Hunter-Rohovit/Rubik-s-Cube-Simulator/assets/105554281/b5c2c665-2dd2-41e2-aa8d-5556f4a7250d)
-The main computer that was used for the rover was the Raspberry Pi 3b+. I was able to install Ubuntu 20.04 onto the pi and used that as the OS for the project to configure all of the files. After setting up Ubuntu, I set up the rover code which used ROS as the base framework. After configuring everything on the Raspberry Pi, I installed it onto the main control board from above. 
+![IMG_0753](https://github.com/Hunter-Rohovit/Rubik-s-Cube-Simulator/assets/105554281/b5c2c665-2dd2-41e2-aa8d-5556f4a7250d)<br>
+The main computer that was used for the rover was the Raspberry Pi 3b+. I was able to install Ubuntu 20.04 onto the pi and used that as the OS for the project to configure all of the files. After setting up Ubuntu, I set up the rover code which used ROS as the base framework. After configuring everything on the Raspberry Pi, I installed it onto the main control board from above. <br>
+![IMG_0752](https://github.com/Hunter-Rohovit/Rubik-s-Cube-Simulator/assets/105554281/f5754c7e-00f4-4472-83a1-fd11d035018f)<br>
 ## Motor Testing / Callibration
 After completing the Mechanical build and the control board build, it was time to test the connections and see if everything worked right. As is always the case with these projects it didn't go right the first time and I had to rely on process of elimination to figure out the issue. As I mentioned above, turns out it was poor soldering connections from my beginner attemtps. After fixing that, the motors worked great. <br>
 ![IMG_2131](https://github.com/Hunter-Rohovit/Rubik-s-Cube-Simulator/assets/105554281/b8d141e3-8432-4f77-bcc0-4d48bc8af2dd)<br>
@@ -38,7 +39,7 @@ Attaching the wires to motors and feeding them through the U-Channels of the rov
 These three images show the connections of the wires from the motors to the main control board. This was by far the most difficult part of the electrical assembly. Getting the wires to screw into the terminal blocks while never having a good angle to see what was happening or to even turn the screw driver was extremely tedious and required the assistance of my dad. But, when it was finished it was that much more rewarding. However, when testing the motors after the electrical assembly I realized after some debugging that I had misplaced 6 of the wires, which caused the corner motors to move either sparatically or not at all. But, once I fixed that we were good to go. <br>
 ![IMG_2145](https://github.com/Hunter-Rohovit/Rubik-s-Cube-Simulator/assets/105554281/3285c24b-cb85-4fa4-9fb8-79b6b6de6f3a)<br>
 There was some additional wiring that needed to be done on the head of the rover. I had to connect the communications cable from the control board up to the head as well as the Power JST cable from the arduino shield to the RGB matrix panel itself. <br>
-![IMG_2168](https://github.com/Hunter-Rohovit/Rubik-s-Cube-Simulator/assets/105554281/1d5a4822-a28b-41d0-bdd1-169a213d42b5)<br>
 ![IMG_2180](https://github.com/Hunter-Rohovit/Rubik-s-Cube-Simulator/assets/105554281/f32fb0ca-7b51-4089-987b-4b385c92dd5a)<br>
+![IMG_2168](https://github.com/Hunter-Rohovit/Rubik-s-Cube-Simulator/assets/105554281/1d5a4822-a28b-41d0-bdd1-169a213d42b5)<br>
 And finally the electrical build was complete!
 
