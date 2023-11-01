@@ -8,4 +8,6 @@ These first two images show the difference between my first time soldering and m
 ![IMG_0743](https://github.com/Hunter-Rohovit/Rubik-s-Cube-Simulator/assets/105554281/50c80ffd-b768-437a-ba76-cbd29c057f35)<br>
 Here is some more images of the soldering I had to do on the control board in order to make solid connections with the terminal blocks and the 5V/10V regulators. <br>
 ![IMG_0749](https://github.com/Hunter-Rohovit/Rubik-s-Cube-Simulator/assets/105554281/6952e479-d50d-4ff1-8079-bb1af26da415)<br>
+The 2x7A motor drivers needed to be connected to the control board, so I created a series of jumper wires that connected VIN and GND to the motor controllers, as well as supplied power and ground for the motors themselves. These motor controllers connected to the terminal blocks from above with the printed wires in the PCB. 
 ![IMG_0750](https://github.com/Hunter-Rohovit/Rubik-s-Cube-Simulator/assets/105554281/36553d8c-2b6f-45c9-99a4-61d1ef6cd169)<br>
+Here are the motor controllers attached to the rest of the control board to finish the soldering and control board build!
